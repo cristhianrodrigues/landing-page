@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css"  href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+
+  <header>
+    <div id="cabecalho">
+
+      <div class="ladoEsquerdoCabecalho">
+        <div class="menuMobile">
+          <nav>
+            <img class="logo" src="images/logo.svg">
+          </nav>
+          <img id="botaoAbrirMenu" src="images/icon-hamburger.svg">
+          <img id="botaoFecharMenu" src="images/icon-close.svg">
+        </div>
+        
+
+        <nav id="menuPrincipal">
+          <ul class="menu">
+              <li id="produtos"><a class="primeiroIten" href="#">Produtos</a><img src="images/icon-arrow-light.svg" class="setaDosProdutos seta">
+                <ul class="subItens">
+                  <li><a href="#">Visão Geral</a></li>
+                  <li><a href="#">Preços</a></li>
+                  <li><a href="#">Mercado</a></li>
+                  <li><a href="#">Recursos</a></li>
+                  <li><a href="#">Integrações</a></li>
+                </ul>
+              </li>
+
+              <li id="companhia"><a class="primeiroIten" href="#">Companhia</a><img src="images/icon-arrow-light.svg" class="setaDaCompanhia seta">
+                <ul class="subItens">
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Equipe</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Carreiras</a></li>
+                </ul>
+              </li>  
+
+              <li id="contatos" class="contatos"><a class="primeiroIten" href="#">Contatos</a><img src="images/icon-arrow-light.svg" class="setaDosContatos seta">
+                <ul class="subItens">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Newslatter</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+              <div >
+                <button class="botaoLogarResponsivo">Logar</button>
+                <button class="botaoCadastrarResponsivo">Cadastrar</button>
+              </div>
+            </ul>
+        </nav>
+      </div>
+
+      <nav id="botoesDoCabecalho">
+        <button class="botaoLogar">Logar</button>
+        <button class="botaoCadastrar">Cadastrar</button>
+      </nav>
+
+    </div>
+
+
+    <div  class="conteudoDoCabecalho">
+      <h1>Uma plataforma de publicação moderna</h1>
+      <p>Aumente seu público e construa sua marca online</p>
+      <div class="botoesDoConteudo">
+        <button class="botaoComecarDeGraca">Começar de Graça</button>
+        <button class="botaoSaibaMais">Saiba Mais</button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+
+    <section class="primeiroConteudo">
+
+      <h1>Projetado para o futuro</h1>
+      <img src="images/illustration-editor-mobile.svg" class="primeiroConteudoImagemMobile">
+      <div class="conteudoTotal">
+          <div class="conteudoDaEsquerda">
+            <h2>Apresentando um editor extensível</h2>
+            <p>O Blogr apresenta uma interface extremamente intuitiva que permite que você se concentre em uma coisa: criar conteúdo.
+              O editor suporta o gerenciamento de vários blogs e permite a fácil manipulação de incorporações, como imagens,
+              vídeos e Markdown. A extensibilidade com plugins e temas fornece maneiras fáceis de adicionar funcionalidade ou
+              mudar a aparência de um blog.</p>
+            <h2 class="segundoConteudoDaEsquerda">Gerenciamento de conteúdo robusto</h2>
+            <p>O gerenciamento de conteúdo flexível permite que os usuários se movam facilmente pelas postagens. Aumente a usabilidade do seu blog
+              adicionando categorias, seções, formatos ou fluxos personalizados. Com esta funcionalidade, você está no controle total.</p>
+          </div>
+          <div class="imagemDaDireita">
+            <img src="images/illustration-editor-desktop.svg" class="primeiroConteudoImagemDesktop">
+          </div>
+      </div>
+    </section>
+
+
+    <section class="segundoConteudo">
+        <div class="ladoEsquerdoDoSegundoConteudo">
+          <img src="images/illustration-phones.svg">
+        </div>
+        <div class="ladoDireitoDoSegundoConteudo">
+          <h1>Infraestrutura de última geração</h1>
+          <p>Com confiabilidade e velocidade em mente, os data centers em todo o mundo fornecem a espinha dorsal para conectividade ultrarrápida.
+            Isso garante que seu site seja carregado instantaneamente, não importa onde seus leitores estejam, mantendo seu site competitivo.</p>
+        </div>
+    </section>
+
+
+    <section class="terceiroConteudo">
+      <div class="terceiroConteudoDaEsquerda">
+        <img class="imagemDoTerceiroConteudoDaEsquerdaDesktop" src="images/illustration-laptop-desktop.svg">
+        <img class="imagemDoTerceiroConteudoDaEsquerdaMobile" src="images/illustration-laptop-mobile.svg">
+      </div>
+      <div class="terceiroConteudoDaDireita">
+        <h2>Gratuito, aberto, simples</h2>
+        <p>O Blogr é um aplicativo gratuito e de código aberto apoiado por uma grande comunidade de desenvolvedores úteis. Ele suporta
+          recursos como destaque de sintaxe de código, feeds RSS, integração de mídia social, ferramentas de comentários de terceiros,
+          e funciona perfeitamente com o Google Analytics. A arquitetura é limpa e é relativamente fácil de aprender.</p>
+        <h2>Ferramentas poderosas</h2>
+        <p>Baterias incluídas. Criamos uma ferramenta CLI simples e direta que facilita a personalização e a implantação, mas
+          capaz de produzir até os sites mais complicados.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="rodape">
+      <div class="logoRodape">
+        <img src="images/logo.svg">
+      </div>
+
+      <ul class="menuRodape">
+        <li class="produtosRodape"><a class="primeiroItemRodape" href="#">Produtos</a>
+          <ul class="itensSecundariosRodape">
+            <li><a href="#">Visão Geral</a></li>
+            <li><a href="#">Preços</a></li>
+            <li><a href="#">Mercado</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Integrações</a></li>
+          </ul>
+        </li>
+
+        <li class="companhiaRodape"><a class="primeiroItemRodape" href="#">Companhia</a>
+          <ul class="itensSecundariosRodape">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </li>
+
+        <li class="contatosRodape"><a class="primeiroItemRodape" href="#">Contatos</a>
+          <ul class="itensSecundariosRodape">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Newslatter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
+    <style>
+      
+    </style>
+  
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://cristhianrodrigues.github.io">Cristhian Rodrigues</a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
